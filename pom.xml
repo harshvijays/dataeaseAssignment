@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mavenproject</groupId>
+  <artifactId>maven-project</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+ 
+        <!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
+<dependency>
+    <groupId>org.hsqldb</groupId>
+    <artifactId>hsqldb</artifactId>
+    <version>2.5.0</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency> 
+	<groupId>com.opencsv</groupId> 
+	<artifactId>opencsv</artifactId> 
+	<version>4.1</version> 
+</dependency> 
+
+<dependency>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-math3</artifactId>
+  <version>3.4.1</version>
+</dependency>
+    </dependencies>
+</project>
+
+
+ 
+    
